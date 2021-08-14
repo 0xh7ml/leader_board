@@ -113,6 +113,7 @@ h2{
 .time{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-radius: 100px;
     border: hidden;
     background-color: #FFE4E8;
