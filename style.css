@@ -64,9 +64,14 @@ h2{
 
  .wrap-card{
      display: flex;
-     justify-content: space-evenly;
+     flex-wrap: wrap;
+     justify-content: center;
+     column-gap: 36px;
 
 }
 .card img{
     width: 244px;
+}
+.card{
+    
 }
