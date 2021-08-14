@@ -65,6 +65,7 @@ h2{
  .wrap-card{
      display: flex;
      justify-content: space-evenly;
+
 }
 .card img{
     width: 244px;
