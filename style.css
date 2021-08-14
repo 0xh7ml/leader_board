@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #e5e5e5;
+}
+header{
+    background-color: #562EFF;
+    height: 86px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo>img{
+    height: 40px;
+}
+.logo-text{
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 16px;
+    column-gap: 36px;
+}
+a , li {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffffff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 36px;
+    height: 86px;
+}
+.nav-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+}
+.container{
+    width: 870px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+h2{
+    color: #562EFF;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 36px ;
+    padding-top: 20px;
+}
+.card{
+    background-color: #ffffff;
+    width: 253px;
+    height: auto;
+    border: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+}
+.card>img{
+    width: 224px;
+    height: auto;
+}
+.wrap-card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.card>p{
+    font-family: 'Roboto'!important;
+    color:#1e1e1e;
+    font-size: 20.03px;
+    font-weight: 400;
+}
+.course-text{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: #ED6B4F;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+}
+.star{
+    font-size: 12px!important;
+}
+.star>.checked{
+    color: #FFC014;
+}
+.fa-star{
+    color: #AEAEAE;
+}
+.rating{
+    color: #A2A2A2;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 100px;
+    border: hidden;
+    background-color: #FFE4E8;
+}
+.fa-clock-o{
+    font-size: 14px;
+    color: #FF4A60;
+}
+span{
+    color: #FF4A60;
+    font-family: 'Poppins';
+}
