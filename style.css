@@ -100,7 +100,7 @@ h2{
     display: flex;
     column-gap: 10px;
     align-items: center;
-    flex-basis: 50%;
+    flex-basis: 50%; 
 }
 .blog-details p{
     font-family: 'Poppins';
@@ -120,4 +120,32 @@ span > a {
 .wrap-blog {
     display: flex;
     flex-wrap: wrap;
+}
+.card-player{
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+.players a {
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #000000;
+}
+.thumb img{
+    width: 56px;
+    height: auto;
+}
+.wrap-player{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+    align-items: center;
+}
+hr{
+    width: 807px;
+    height: 0;
+    color: #d1d1d1;
 }
